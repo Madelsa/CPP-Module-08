@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main.cpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mabdelsa <mabdelsa@student.42.fr>          +#+  +:+       +#+        */
+/*   By: mahmoud <mahmoud@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/22 16:08:05 by mabdelsa          #+#    #+#             */
-/*   Updated: 2024/09/22 16:38:01 by mabdelsa         ###   ########.fr       */
+/*   Updated: 2024/09/22 20:44:36 by mahmoud          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,5 +44,4 @@ int main()
         std::cout << e.what() << std::endl;
     }
 
-    return 0;
 }

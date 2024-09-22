@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   Span.cpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mabdelsa <mabdelsa@student.42.fr>          +#+  +:+       +#+        */
+/*   By: mahmoud <mahmoud@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/22 16:39:12 by mabdelsa          #+#    #+#             */
-/*   Updated: 2024/09/22 17:15:41 by mabdelsa         ###   ########.fr       */
+/*   Updated: 2024/09/22 20:12:15 by mahmoud          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -48,7 +48,6 @@ unsigned int Span::shortestSpan() const
     std::vector<int> sorted = numVect;
     std::sort(sorted.begin(), sorted.end());
     unsigned int minSpan = std::numeric_limits<unsigned int>::max();
-
     for (size_t i = 0; i < sorted.size() - 1; i++) 
     {
         unsigned int span = sorted[i + 1] - sorted[i];
