@@ -3,15 +3,15 @@
 /*                                                        :::      ::::::::   */
 /*   MutantStack.tpp                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mahmoud <mahmoud@student.42.fr>            +#+  +:+       +#+        */
+/*   By: mabdelsa <mabdelsa@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/22 20:26:27 by mahmoud           #+#    #+#             */
-/*   Updated: 2024/09/22 20:32:46 by mahmoud          ###   ########.fr       */
+/*   Updated: 2024/09/23 13:02:48 by mabdelsa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 template <typename T>   
-MutantStack<T>::MutantStack( void ) : std::stack<T>() {}
+MutantStack<T>::MutantStack() : std::stack<T>() {}
 
 template <typename T>
 MutantStack<T>::MutantStack(MutantStack<T> const &copyTemplate) : std::stack<T>(copyTemplate) {}
